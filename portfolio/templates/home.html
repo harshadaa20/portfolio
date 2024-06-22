@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+{% block body %}
+  <section id="home" class="home">
+    <div class="home-content">
+      <h3>Hello there!</h3>
+      <h1>Harshada Here</h1>
+      <h3>And I'm a <span class="text"></span></h3>
+      <p>
+        Driven and ambitious computer engineer in my third year of studies.
+        <br> I am a team player,with passion for continious learing and staying up-to-date with industry trends.
+        <br>Eager to contribute my expertise and make meaningfull impact.
+      </p>
+      <div class="home-sci">
+        <a href="https://www.linkedin.com/in/harshada-jagade-03895620a/" style="--1:5"><i class='bx bxl-linkedin'></i></a>
+        <a href="mailto:harshada.jagade@gmail.com"style="--1:6"><i class='bx bxl-gmail'></i></a>
+        <a href="https://github.com/harshadaa20"style="--1:7"><i class='bx bxl-github'></i></a>
+        
+      </div>
+      <a href="https://drive.google.com/file/d/13s8uCvIzGNzumP29gDaurzSr__rZD64t/view?usp=sharing"  class="btn-box">Download CV</a>
+    </div>
+    <div class="home-image">
+      <div class="img-box">
+        <img src="static/img/hj.png" alt="img" style="width: 28em;
+        height: 25em;">
+      </div>
+    </div>
+    <script type="type=text/javascript"src="{% static 'js/home.js'%} "defer></script>
+  </section>
+
+  
+ 
+  {% endblock body %}
+  {% block scripts %}
+  <script type="type=text/javascript"src="{% static 'js/home.js'%} "defer></script>
+  {% endblock scripts %}
+  
